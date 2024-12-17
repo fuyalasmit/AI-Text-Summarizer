@@ -4,7 +4,7 @@ const summarizeText = async (text) => {
   let data = JSON.stringify({
     inputs: text,
     parameters: {
-      max_length: 100,
+      max_length: 200,
       min_length: 30,
     },
   });
